@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height:100%
+}
+.main-part{
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    text-align: center;
+}
+.img-profile{
+ text-align: center;
+
+ margin-bottom: 50px;
+
+}
+.img-profile img {
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.img-profile h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.socials{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+/*facebook*/
+.social-1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color: #5475ba;
+    padding:20px 10px ;
+    border-radius: 10px;
+}
+.social-1 i {
+    color: white;
+    font-size: 30px;
+}
+.social-1 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*twiter*/
+.social-2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color: #52aeef;
+    padding:20px 10px ;
+    border-radius: 10px;
+}
+.social-2 i {
+    color: white;
+    font-size: 30px;
+}
+.social-2 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*LINKEDIN*/
+.social-3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color:#0275b6;
+    padding:20px 10px ;
+    border-radius: 10px;
+}
+.social-3 i {
+    color: white;
+    font-size: 30px;
+}
+.social-3 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*INSTAGRAM*/
+.social-4{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color:#e44160;
+    padding:20px 10px ;
+    border-radius: 10px;
+}
+.social-4 i {
+    color: white;
+    font-size: 30px;
+}
+.social-4 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*youtube*/
+.social-5{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color:#cf201d;
+    padding:20px 10px ;
+    border-radius: 10px;
+}
+.social-5 i {
+    color: white;
+    font-size: 30px;
+}
+.social-5 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width:1740px) {
+    .socials{
+
+        width: 50%;
+    }  
+}
+
+@media (max-width:862px) {
+    .socials{
+
+        width: 70%;
+    }  
+}
+@media (max-width:678px) {
+    .socials{
+
+        width: 80%;
+    }  
+}
+
+@media (max-width:606px) {
+    .socials{
+
+        width: 90%;
+    }  
+}
+
+@media (max-width:579px) {
+    .socials{
+
+        width: 100%;
+    } 
+    .img-profile h4 {
+        font-size: 25px; 
+    } 
+}
+
+@media (max-width:526px) {
+    .socials{
+        width: 100%;
+
+    } 
+    .main-part{
+
+        padding: 50px;
+       
+    } 
+
+}
+@media (max-width:427px) {
+
+    .main-part{
+
+        padding: 20px;
+       
+    } 
+}
+@media (max-width:363px) {
+
+    .main-part{
+
+        padding: 5px;
+       
+    } 
+}
+@media (max-width:334px) {
+
+    .main-part{
+
+        padding: 0px;
+       
+    } 
+}
+@media (max-width:323px) {
+    .social-1,
+    .social-2,
+    .social-3,
+    .social-4,
+    .social-5{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
